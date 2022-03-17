@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <h1>About me</h1>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p>
+My name is Saud Sattam Al-otaibi , I study in Al yamamah university 4 years and My undergraduate major is software engineering , I love playing games and design</p>
+<p>Transcript:</p> <hr>
+<table>
+  <table>
+  <tr>
+    <td> <b>Course Code </b> </td>
+
+    <td> <b>Course Name </b> </td>
+
+    <td> <b>Description </b> </td>
+  </tr>
+
+  <tr>
+      <td>CIS201</td>
+  <td>Fundamentals of Web Design</td>
+  <td>This course introduces basic concepts of the Internet and World-Wide Web, <br>
+     Learning how to create web pages with HTML and use JavaScript for dynamic effects. </td>
+</tr>
+
+<tr>
+  <td>CIS 103</td>
+  <td>Programming I</td>
+  <td>In this course students will learn the basics of Java language syntax, <br>
+    elementary programming, selection and repetition, methods and arrays.They will <br>
+    gain experience by designing, writing, compiling and executing simple java programs. </td>
+  </tr>
+
+  <tr>
+    <td>CIS 104</td>
+    <td>Programming II</td>
+    <td>This course gives a thorough grounding in the basics of Object-Oriented <br>
+       design and programming including Abstraction, Encapsulation, Polymorphism, <br>
+        Inheritance and Exception Handling. Emphasis will be placed on creating <br>
+         and manipulating objects and classes. They will also learn event-driven <br>
+         programming. Students will learn about these concepts in a Java development environment.</td>
+  </tr>
+</table>
+
+
+
+
+</table>
+
+</body>
+</html>
