@@ -1,0 +1,57 @@
+*{
+  margin:0;/* zero margin */
+  padding:0;/* zero padding */
+}
+
+body {
+  margin: 0;/* zero margin */
+  font-family: "Times New Roman", Times, serif;/*to specify the font of a text  "Times New Roman", Times, serif.*/
+  font-size:17px;/* font size selector*/
+  color:white;/*color style*/
+  line-height:1.6;/*height of a line*/
+}
+
+.container{
+    width: 400px;/*width style*/
+    height: 400px;/*height style*/
+    margin: 100px;/* are used to create space around elements*/
+    background: #fff;/*color style*/
+    position: relative;/*is positioned relative to its normal position.*/
+}
+
+#showme{
+  background-image:url("5-53488_photo-wallpaper-autumn-leaves-background-tree-coffee-autumn.jpg");/* background img*/
+  background-size:cover;/*background size*/
+  background-position:center;/*background position*/
+  height:100vh;/*height style*/
+  display:flex;/*specifies the display behavior the type of rendering box of an element*/
+  flex-direction:column;/*specifies the direction of the flexible items.*/
+  justify-content:center;/*aligns the flexible container's items when the items do not use all available space on the main-axis horizontally.*/
+  align-items:center;/*specifies the default alignment for items inside the flexible container.*/
+  text-align:center;/*specifies the horizontal alignment of text in an element.*/
+  padding:0 20px;/*is the space between the border and the content so that if you have text in an element*/
+}
+
+#showme h1{
+  font-size:50px;/* font size selector*/
+  line-height:1.2;/*specifies the height of a line*/
+}
+
+#showme p{
+  font-size:20px;/* font size selector*/
+}
+
+#showme .button{
+  font-size:18px;/* font size selector*/
+  text-decoration:none;/*to set or remove decorations from text*/
+  color:#926239;/*color style*/
+  border:#926239 1px solid;/* select any border you want i choosed solid*/
+  padding:10px 20px;/* is the space between the border and the content so that if you have text in an element*/
+  border-radius:10px;/*defines the radius of an element's corners*/
+  margin-top:20px;/*a shorthand property for the following individual margin*/
+}
+
+#showme .button:hover{/*selector is used to select elements when you mouse over them.*/
+  background:#926239;/*background style color style*/
+  color:#fff;/*color style*/
+}

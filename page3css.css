@@ -1,0 +1,59 @@
+*{
+  margin:0;/* zero margin */
+  padding:0;/* zero padding */
+}
+
+body {
+  margin: 0;/* zero margin */
+  font-family: "Times New Roman", Times, serif;/*to specify the font of a text  "Times New Roman", Times, serif.*/
+  font-size:17px;/* font size selector*/
+  color: white;/*color style*/
+  line-height:1.6;/*height of a line*/
+}
+
+#showme{/* i used THE SYMBOL of # because its a id*/
+  background-image:url("5-53511_photo-wallpaper-autumn-leaves-background-tree-coffee-coffee.jpg");/* background img*/
+  background-size:cover;/*background size*/
+  background-position:center;/* background position*/
+  height:100vh;/*height style*/
+  display:flex;/*display behavior the type of rendering box of an element*/
+  flex-direction:column;/* the direction of the flexible items.*/
+  justify-content:center;;/*aligns the flexible container's items when the items do not use all available space on the main-axis horizontally.*/
+  align-items:center;/* specifies the default alignment for items inside the flexible container.*/
+  text-align:center;/*horizontal alignment text.*/
+  padding:0 20px;/* Some padding */
+}
+
+#showme h1{/* i used THE SYMBOL of # because its a id*/
+  font-size:50px;/* font size selector*/
+  line-height:1.2;/*specifies the height of a line*/
+}
+
+#showme p{/* i used THE SYMBOL of # because its a id*/
+  font-size:20px;/* font size selector*/
+}
+
+.btn-group button {/* i used THE SYMBOL of . because its a class + button*/
+  background-color: #FFE4C4; /* bisque background */
+  border: 1px solid sienna; /* bisque border */
+  color:dimgrey; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #FFEBCD;/* #FFEBCD background */
+}

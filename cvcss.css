@@ -1,0 +1,87 @@
+* {
+  max-width: 700px;/*content is larger than the maximum width*/
+  margin: auto;/*margin area on all four sides of an element.*/
+}
+
+div {
+  border-radius: 5px;/*defines the radius of the element's corners.*/
+}
+
+#header { /*selector selects elements with a specific class attribute.*/
+  height: 40px;/*height style*/
+  width: 100%;/*width style*/
+  background-color: #fcf6f2;/*background style color style*/
+  position: fixed;/* is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.*/
+  z-index: 1;/*specifies the stack order of an element.*/
+}
+
+h1{/* to select the color of heading level 1*/
+    color: #968073;/*color style*/
+}
+
+h3{/* to select the color of heading level 3*/
+    color: #968073;/*color style*/
+}
+
+#title {/* i used THE SYMBOL of # because its a id*/
+  margin-left: 3%;/*sets the margin area on the left side of an element*/
+}
+
+#line {/* i used THE SYMBOL of # because its a id called by line*/
+  height: 50px;/*height style*/
+  width: 100%;/*width style*/
+  background-color: #f9ece5;/*background style color style*/
+  clear: both;/*property specifies on which sides of an element floating elements are not allowed to float.*/
+  position: relative;/*is positioned relative to its normal position.*/
+}
+
+.left {/* i used THE SYMBOL of . because its a div*/
+  height: 1000px;/*height style*/
+  width: 45px;/*width style*/
+  background-color: #f6e3d8;/*background style color style*/
+  float: left;/*property specifies on which sides of an element floating elements are allowed to float to the left side.*/
+  position: fixed;/* is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.*/
+}
+
+.right {/* i used THE SYMBOL of . because its a div*/
+  height: 1000px;/*height style*/
+  width: 45px;/*width style*/
+  background-color: #f2dacb;/*background style color style*/
+  float: right;/*property specifies on which sides of an element floating elements are allowed to float to the right side.*/
+  position: inherit;/* to take the computed value of the property from its parent element*/
+}
+
+.stuff {/* i used THE SYMBOL of . because its a div*/
+  display: inline-block;/*specifies the display behavior the type of rendering box of an element*/
+  margin-top: 6px;/*The margin property is a shorthand property for the following individual margin*/
+  margin-left: 55px;/*sets the left margin of an element.*/
+  width: 75%;/*width style*/
+  height: 1000px;/*height style*/
+}
+
+p,
+li {/* i used THE SYMBOL of . because its a div*/
+  font-family: 'Cormorant Garamond';/* to specify the font of a text.*/
+  color: #cfae98;/*color style*/
+}
+
+.head {/* i used THE SYMBOL of . because its a div*/
+  font-size: 20px;/* font size selector*/
+  color: #968073;/*color style*/
+}
+
+#name {
+  font-family: Times New Roman;/* to specify the font of a text (Serif).*/
+  float: right;/*property specifies on which sides of an element floating elements are allowed to float to the right side.*/
+  margin-top: 10px;/*The margin property is a shorthand property for the following individual margin*/
+  margin-right: 4%;/*sets the right side margin of an element.*/
+}
+
+a {
+  color: #c0a392;/*color style*/
+    
+}
+
+.leftt{/* i used THE SYMBOL of # because its a id*/
+    margin-right: 50px;/*sets the right side margin of an element.*/
+}

@@ -1,0 +1,49 @@
+*{
+  margin:0;/* zero margin */
+  padding:0;/* zero padding */
+}
+
+body {
+  margin: 0;/*the space outside the border*/
+  font-family: "Times New Roman", Times, serif;/*to specify the font of a text  "Times New Roman", Times, serif.*/
+  font-size:17px;/* font size selector*/
+  color:white;/*color style*/
+  line-height:1.6;/*specifies the height of a line*/
+}
+
+#showme{/* i used THE SYMBOL of # because its a id*/
+  background-image:url("5-53511_photo-wallpaper-autumn-leaves-background-tree-coffee-coffee.jpg");/* background img*/
+  background-size:cover;/*background size*/
+  background-position:center;/* background position*/
+  height:100vh;/*height style*/
+  display:flex;/*display behavior the type of rendering box of an element*/
+  flex-direction:column;/* the direction of the flexible items.*/
+  justify-content:center;/*aligns the flexible container's items when the items do not use all available space on the main-axis horizontally.*/
+  align-items:center;/* specifies the default alignment for items inside the flexible container.*/
+  text-align:center;/*specifies the horizontal alignment of text in an element.*/
+  padding: 20px;/* is the space between the border and the content so that if you have text in an element*/
+}
+
+#showme h1{/* i used THE SYMBOL of # because its a id*/
+  font-size:50px;/* font size selector*/
+  line-height:1.2;/*specifies the height of a line*/
+}
+
+#showme p{/* i used THE SYMBOL of # because its a id*/
+  font-size:20px;/* font size selector*/
+}
+
+#showme .button{/* i used THE SYMBOL of # because its a id + button*/
+  font-size:18px;/* font size selector*/
+  text-decoration:none; /*to set or remove decorations from text*/
+  color:white;/*color style*/
+  border:#926239 1px solid;/* select any border you want i choosed solid*/
+  padding:10px 20px;/* is the space between the border and the content so that if you have text in an element*/
+  border-radius:10px;/*defines the radius of an element's corners*/
+  margin-top:20px;/*a shorthand property for the following individual margin*/
+}
+
+#showme .button:hover{/*selector is used to select elements when you mouse over them.*/
+  background:#926239;/*background style color style*/
+  color:#fff;/*color style*/
+}

@@ -1,0 +1,45 @@
+h1{
+border: 1px black solid;/* black border */
+padding: 5%;/* 5 percent padding*/
+font-family: "Times New Roman", Times, serif;/* the font of a text.*/
+text-align: center;/*horizontal alignment text.*/
+color:aliceblue/* color style */
+}
+h2{
+    text-align: left;/* left side alignment text.*/
+    font-family: "Times New Roman", Times, serif;/* the font of a text.*/
+    color: 	#000033;/* color style */
+}
+
+p{
+    font-family: "Times New Roman", Times, serif;/* the font of a text.*/
+    font-size: 1.2em;/* font size selector*/
+    border: 1px black solid;/* border */
+    padding: 3%;
+    text-align: center;/*horizontal alignment text.*/
+    color: 	#000033;/*color style*/
+}
+body{
+    background-image: url("5-53488_photo-wallpaper-autumn-leaves-background-tree-coffee-autumn.jpg");/* background img*/
+    position: relative;/* normal position*/
+}
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #926239; /* Add a green color to the "active/current" link */
+  color: white;
+}

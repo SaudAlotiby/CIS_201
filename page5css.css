@@ -1,0 +1,43 @@
+h1{
+border: 1px black solid;/* black border */
+padding: 5%;/*Some padding*/
+font-family: "Times New Roman", Times, serif;/* the font of a text.*/
+text-align: center;/* horizontal alignment text.*/
+ color: white;/* color style */
+}
+h2{
+    text-align: left;/* left side alignment text.*/
+    font-family: "Times New Roman", Times, serif;/* the font of a text.*/
+     color: white;/* color style */
+}
+
+p{
+    font-family: "Times New Roman", Times, serif;/* the font of a text.*/
+    font-size: 1.2em;/* font size selector*/
+    border: 1px white solid;/* black border */
+    padding: 3%;/*Some padding*/
+    text-align: center;
+    color: white;/*color style*/
+}
+body{
+    background-image: url("5-53488_photo-wallpaper-autumn-leaves-background-tree-coffee-autumn.jpg");/* background img*/
+    position: relative;/* normal position*/
+    
+}
+.img2{
+    text-align: center;/* horizontal alignment text.*/
+    padding: 20px;/* 20 padding*/
+    border: 8px gray solid;
+    margin: 40px;/* gray border */
+    max-width: 200%;/* more than, width style */
+    max-height: none;/* no height*/
+    
+}
+.img1{
+    text-align: center;/* horizontal alignment text.*/
+    padding: 20px;/* 20 padding*/
+    border: 8px gray solid;/* gray border */
+    margin: 40px;/* 40 margin*/
+    max-width: 200%;/* more than, width style */
+    max-height: none;/* no height*/
+}

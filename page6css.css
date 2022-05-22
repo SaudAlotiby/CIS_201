@@ -1,0 +1,42 @@
+h1{/* to select the color of heading level 1*/
+border: 1px black solid;
+padding: 5%;
+font-family: "Times New Roman", Times, serif;/* the font of a text.*/
+text-align: center;
+color:dimgrey;/* color style */
+}
+h2{/* to select the color of heading level 2*/
+    text-align: left;/* left side alignment text.*/
+    font-family: "Times New Roman", Times, serif;/* the font of a text.*/
+    color: 	#000033;/*color style*/
+}
+
+p{
+    font-family: "Times New Roman", Times, serif;/* the font of a text.*/
+    font-size: 1.2em;/* font size selector*/
+    border: 1px black solid;/* black border */
+    padding: 3%;
+    text-align: center;/* horizontal alignment text.*/
+    color: 	#000033;/*color style*/
+}
+body{
+    background-image: url("bc3db4f51517257764fb80ef2f15b724.jpg");
+    position: relative;
+    
+}
+.img2{/*img size*/
+    text-align: center;/* horizontal alignment text.*/
+    padding: 20px;
+    border: 8px gray solid;/* gray border */
+    margin: 40px;/* 40 margin */
+    max-width: 200%;
+    max-height: none;
+}
+.img1{/*img size*/
+  text-align: center;/* horizontal alignment text.*/
+    padding: 20px;
+    border: 8px gray solid;/* gray border */
+    margin: 40px;/* 40 margin */
+    max-width: 200%;/* larger than the maximum width*/
+    max-height: none;/* no height*/
+}
